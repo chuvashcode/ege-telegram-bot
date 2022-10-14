@@ -38,22 +38,22 @@ class WordsDB:
         random_word: str = random.choice(all_words)
         return random_word
 
-    def get_random_noun(self):
+    def get_random_noun(self) -> str:
         random_noun: str = random.choice(self.nouns)
         return random_noun
 
-    def get_random_adverb(self):
+    def get_random_adverb(self) -> str:
         random_adverb: str = random.choice(self.adverbs)
         return random_adverb
 
-    def get_random_adjective(self):
+    def get_random_adjective(self) -> str:
         random_adjective: str = random.choice(self.adjectives)
         return random_adjective
 
-    def get_random_adparticiple(self):
+    def get_random_adparticiple(self) -> str:
         random_adparticiple: str = random.choice(self.adparticiples)
         return random_adparticiple
 
-    def get_random_participle(self):
+    def get_random_participle(self) -> str:
         random_participle: str = random.choice(self.participles)
         return random_participle
