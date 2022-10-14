@@ -23,6 +23,7 @@ word: str = database.get_random()
 
 is_playing: bool = False
 
+
 @dp.message_handler(commands=['start'])
 async def command_start(message: types.Message) -> None:
     user_id: str = str(message.from_id)
